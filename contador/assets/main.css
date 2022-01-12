@@ -1,0 +1,60 @@
+body {
+    background: url('./backSite.jpg') center center no-repeat;
+    background-attachment:local;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container h1 {
+    background: white;
+    color: #275880;
+    padding: 8px;
+    border-radius: 15px 0px 15px 0px;
+    font-size: 3em;
+}
+
+.container p {
+    color: white;
+    font-size: 1.2em;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.divButtons {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-weight: 100px;
+    cursor: pointer;
+}
+
+#lessButton {
+    background: url('./less.png') no-repeat center center;
+    background-size: 60%;
+}
+
+#plusButton {
+    background: url('./plus.png') no-repeat center center;
+    background-size: 70%;
+}
+
+#number { 
+    font-size: 5em;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
