@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    background-color: #141414;
+}
+
+.container { 
+    width: 92%;
+    margin: 0 auto;
+}
+
+.allMenu {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    height: 68px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo {
+    height: 68px;
+}
+
+.main-menu ul {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 60px;
+}
+
+.main-menu ul li {
+    margin-right: 20px;
+}
+
+.main-menu ul li a:hover {
+    color: #8c8c8c;
+    transition: 0.5s;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: #e5e5e5;
+    transition: 0.5s;
+}
+
+.inicio{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    background: url('./poster.png');
+    background-size: cover;
+    padding-top: 100px;
+    display: flex;
+}
+
+.inicio-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-bottom: 300px;
+}
+
+.inicio-contents img {
+    width: 430px;
+    margin-bottom: 20px;
+}
+
+.inicio-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons {
+    border: none;
+    height: 58px; 
+    margin-right: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#button-watch {
+    width: 190px;
+    padding-left: 20px;
+    background: white url(https://imagensemoldes.com.br/wp-content/uploads/2020/08/Figura-Play-PNG.png) no-repeat;
+    background-size: 22%;
+    background-position: 18px center;
+}
+
+#button-watch:hover {
+    background-color: rgba(255, 255, 255, 0.549);
+}
+
+#button-info {
+    width: 280px;
+    padding-left: 25px;
+    color: white !important;
+    background: rgba(204, 204, 204, 0.316) url('https://cdn.pixabay.com/photo/2017/03/17/05/20/info-2150938_960_720.png') no-repeat;
+    background-size: 15%;
+    background-position: 18px center;
+}
+
+#button-info:hover {
+    background-color: rgba(255, 255, 255, 0.159);
+}
