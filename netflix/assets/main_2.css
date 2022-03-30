@@ -26,6 +26,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    top: 0;
+}
+
+.content > h1 {
+    color: white;
+    margin: 45px 0  ;
+    font-size: 3.5vw;
+    font-weight: 500;
 }
 
 .users {
@@ -35,5 +43,36 @@ body {
 
 .users a {
     text-decoration: none;
-    border: 1px solid red;
+    margin: 20px;
+}
+
+.users img {
+    width: 192px;
+    border-radius: 6px;
+    /* border: 5px solid white; */
+}
+
+.users span {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 24px;
+    color: grey;
+}
+
+#button-gerenciar { 
+    display: block;
+    margin: 2em 0 1em 0;
+    font-size: 1.2vw;
+    border: 1px solid grey;
+    color: grey;
+    padding: 0.5em 1.5em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#button-gerenciar:hover { 
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }

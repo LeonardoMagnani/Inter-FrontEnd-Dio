@@ -22,8 +22,9 @@ buttonUser.addEventListener('click', function eventUser () {
     })
     .then((data) => {
         console.log(data)
+        document.write(data.avatar_url)
     })
-
+    return data;
 
     textUser.value = ''
 })

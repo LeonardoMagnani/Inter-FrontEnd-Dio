@@ -15,8 +15,12 @@ body {
 }
 
 .allMenu {
-    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
     height: 68px;
+}
+
+.allMenuActive {
+    display: inline-block;
+    background: red;
 }
 
 header {
@@ -69,7 +73,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    margin-bottom: 300px;
+    margin-bottom: 30vh;
 }
 
 .inicio-contents img {
@@ -117,4 +121,15 @@ header {
 
 #button-info:hover {
     background-color: rgba(255, 255, 255, 0.159);
+}
+
+.box-filme { 
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.img-filmes {
+    width: 100px;
+    max-height: 250px;
 }

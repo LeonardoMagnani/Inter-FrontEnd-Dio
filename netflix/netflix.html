@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Netflix</title>
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/0/0c/Netflix_2015_N_logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/splide/splide.min.css">
+</head>
+<body>
+    <div class="allMenu">
+    <div class="container">
+        <header>
+            <a href="#" ><img id="logo" src="./assets/logo.png" alt=""></a>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Séries</a></li>
+                    <li><a href="#">Filmes</a></li>
+                    <li><a href="#">Bombando</a></li>
+                    <li><a href="#">Minha lista</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    </div>
+
+    <div class="inicio">
+        <div class="inicio-contents container">
+            <img draggable="false" src="./assets/AAAABdJES5ZNTvJPf9Z9DXJ9vS-4_17dlRU6AwBEhjV2hn4-jSjENcmxipOqLM8aD1ZjWmdzumpZPIkMOQw32jAQLXrBXonw3JH_3qY86iS8HfP6iJFOId12tTdEQlmRNNSbpXlzhCKbHd1bQa5rJ-7yaZNLtqtPAVKR_re8n86.webp" alt="">
+            <div class="inicio-buttons">
+                <input type="button" value="Assistir" class="buttons" id="button-watch">
+                <input type="button" value="Mais informações" class="buttons" id="button-info">
+            </div>
+        </div>
+    </div>
+
+    <div class="splide">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide"><img class="img-filmes" src="https://br.web.img2.acsta.net/c_310_420/pictures/19/04/26/17/30/2428965.jpg" alt=""></li>
+                  <li class="splide__slide"><img class="img-filmes" src="https://br.web.img3.acsta.net/c_310_420/pictures/21/12/15/16/51/3899884.jpg" alt=""></li>
+                  <li class="splide__slide"><img class="img-filmes" src="https://cinema10.com.br/upload/filmes/filmes_14101_morbius.jpg" alt=""></li>
+              </ul>
+        </div>
+      </div>
+        
+      <script>
+        document.addEventListener( 'DOMContentLoaded', function() {
+            var splide = new Splide( '.splide', {
+            type   : 'loop',
+            drag   : 'free',
+            perPage: 6,
+} );
+
+splide.mount();
+        } );
+
+        // atent to the document to finish the project 
+      </script>
+    
+    <script src="./assets/main.js"></script>
+    <script src="./assets/splide/splide.min.js"></script> <!-- path-to-the-file/splide.min.js -->
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('https://i.pinimg.com/originals/c8/dd/4e/c8dd4e1b9fa3c40d15bc9c24fc801084.jpg') no-repeat center;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.buttonQuotes {
+  width: 150px;
+  height: 48px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.buttonQuotes:hover {
+  color: rgb(0, 48, 10);
+  background-color: #fff;
+  transition: 1s;
+}
+
+.divQuote {
+  min-width: 500px;
+}
