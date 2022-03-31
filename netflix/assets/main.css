@@ -7,6 +7,11 @@ body {
     font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 14px;
     background-color: #141414;
+    color: white;
+}
+
+ul {
+    list-style: none;
 }
 
 .container { 
@@ -130,6 +135,76 @@ header {
 }
 
 .img-filmes {
-    width: 100px;
+    width: 200px;
     max-height: 250px;
+}
+
+.splide__arrows {
+    display: none;
+}
+
+.movies-images {
+    margin-top: 40px;
+}
+
+.movies-images h2 {
+    font-weight: 700;
+    color: white;
+    font-size: 1.4vw;
+    margin-bottom: 20px;
+}
+
+.splide__pagination {
+    display: none !important;
+}
+
+.footer {  
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 100px;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: grey;
+}
+
+.links li {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.links li {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.links li:hover {
+    text-decoration: underline;
+}
+
+.span-cod {
+    cursor: pointer;
+    border: 1px solid grey;
+    color: grey;
+    margin-top:20px;
+    display: inline-block;
+    padding: 8px;
+}
+
+.span-cod:hover {
+    color: white;
+}
+
+.span-copy {
+    color: grey;
+    font-size: 0.9em;
+    display: block;
+    margin-top:20px;
+    margin-bottom:20px;
 }
